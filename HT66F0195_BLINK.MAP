@@ -1,0 +1,80 @@
+
+Linker Version 8.7.7.220718
+Input Object File: C:\Users\icetz\OneDrive\文件\HTK_Project\HT66F0195_BLINK\HT66F0195_BLINK.OBJ
+Input Object File: C:\Users\icetz\OneDrive\文件\HTK_Project\HT66F0195_BLINK\STARTUP1_L.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (C:\Users\icetz\OneDrive\文件\HTK_Project\HT66F0195_BLINK\HT66F0195_BLINK.OBJ)
+     00h     0001h     0001h    0001h      CODE               @start (C:\Users\icetz\OneDrive\文件\HTK_Project\HT66F0195_BLINK\HT66F0195_BLINK.OBJ)
+     00h     0002h     0013h    0012h      CODE               _Delayms (C:\Users\icetz\OneDrive\文件\HTK_Project\HT66F0195_BLINK\HT66F0195_BLINK.OBJ)
+     00h     0014h     0025h    0012h      CODE               _main (C:\Users\icetz\OneDrive\文件\HTK_Project\HT66F0195_BLINK\HT66F0195_BLINK.OBJ)
+     00h     0026h     0033h    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0080h     0080h    0001h      DATA     3         @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     3         @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0085h     0085h    0000h      LOCAL    0         @dummy (C:\Users\icetz\OneDrive\文件\HTK_Project\HT66F0195_BLINK\HT66F0195_BLINK.OBJ)
+     00h     0085h     0085h    0000h      LOCAL    0         _main (C:\Users\icetz\OneDrive\文件\HTK_Project\HT66F0195_BLINK\HT66F0195_BLINK.OBJ)
+     00h     0083h     0084h    0002h      LOCAL    3         _Delayms (C:\Users\icetz\OneDrive\文件\HTK_Project\HT66F0195_BLINK\HT66F0195_BLINK.OBJ)
+     00h     0082h     0082h    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Public Symbols Information
+     Address            Public by Name
+     0002h              _Delayms
+     0083h              _Delayms_2
+     002bh              __DELAYY0_isr00
+     002ah              __DELAYY1_isr00
+     0029h              __DELAYY2_isr00
+     0028h              __DELAYY3_isr00
+     0027h              __DELAYY4_isr00
+     0026h              __DELAYY5_isr00
+     0082h              _builtin_holtek_delay_isr00_2
+     0014h              _main
+     0080h              rb
+     0081h              rc
+
+     Address            Public by Value
+     0002h              _Delayms
+     0014h              _main
+     0026h              __DELAYY5_isr00
+     0027h              __DELAYY4_isr00
+     0028h              __DELAYY3_isr00
+     0029h              __DELAYY2_isr00
+     002ah              __DELAYY1_isr00
+     002bh              __DELAYY0_isr00
+     0080h              rb
+     0081h              rc
+     0082h              _builtin_holtek_delay_isr00_2
+     0083h              _Delayms_2
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     2000h     0034h    0%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0005h    3%
+     01h       0080h     0000h    0%
+     02h       0080h     0000h    0%
+     03h       0080h     0000h    0%
+     Total     0200h     0005h    0%
+
+Use Stack Count
+_main: 2
+
+Call Tree
+    @dummy
+        _main (0)
+            _Delayms (1)
+                _builtin_holtek_delay_isr00 (2)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'C:\Users\icetz\OneDrive\文件\HTK_Project\HT66F0195_BLINK\HT66F0195_BLINK.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
